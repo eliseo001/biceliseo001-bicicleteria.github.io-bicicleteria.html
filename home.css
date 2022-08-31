@@ -1,0 +1,271 @@
+*{
+    margin: 0px;
+}
+h1{
+    /* text-align: center; */
+    font-size: 30px;
+    padding-left: 30px;
+    
+}
+h1:hover{
+    color: green;
+   
+}
+
+p{
+    text-align: center; 
+    font-size: 20px;
+    color:rgb(39, 36, 36);
+}
+#mision{
+    font-size: 20px;
+    
+}
+#muestramision{
+   font-style: italic;
+}
+
+.imagen-de-arriba{
+    background-image:url("./pexels-pavel-danilyuk-5807587\(2\).jpg");
+    width: 100%;
+    height: 300px;
+    background-size:cover;
+
+    
+}
+
+main{
+    background: linear-gradient(rgb(129, 128, 128),rgb(91, 91, 91),rgb(72, 72, 72),rgb(39, 38, 38),rgb(20, 20, 20), rgb(74, 74, 74),#818080);
+
+   
+
+    /* display: flex; */
+    /* flex-direction: column; */
+    
+    /* justify-content: space-around; */
+    /* text-shadow: 2px 2px blanchedalmond; */
+    
+}
+
+.uno{
+    margin-top: 50px;
+   
+}
+
+.dos{
+  margin-top: 100px;
+ 
+}
+.items{
+    font-size: 20px;
+    font-style: italic;
+}
+
+.center{
+    text-align: center;
+
+}
+header{
+    background-color:rgb(196, 195, 195);
+    padding: 20px 0px;
+}
+.caja{
+    width: 940px;
+    height: 200px;
+    position: relative;
+    margin: 0 auto;
+}
+.img{
+    
+    width: 300px;
+    height: 200px;
+   
+}
+nav li{
+    display:inline;
+    margin: 0 0 0 15px;
+    }
+    nav{
+        width: 50%;
+        position: absolute;
+        top: 110px;
+        right: 0px;
+    }
+    nav a{
+        text-transform: uppercase;
+        color: black;
+        font-weight: bold;
+        font-size: 22px;
+        text-decoration: none;
+    }
+    nav a:hover{
+        color: #c78c19;
+    }   
+
+
+
+.titulo-principal{
+    padding-left: 30px;
+}
+
+#banner{
+    width:100%;
+}
+
+/* .principal{
+    background:rgb(84, 84, 28);
+    padding: 20px;
+} */
+
+.titulo-centralizado{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+em strong{
+    color:rgb(241, 237, 237);
+}
+
+#mision{
+    font-size: 20px;
+}
+.principal{
+    
+
+}
+.mapa{
+   
+
+}
+.mapa-local{
+   
+    margin-left: 15%;
+    margin-top: 50px;
+    width: 70%;
+}
+.diferencias{
+    /* background: #fffefe; */
+    /* padding: 30px;
+     */
+     height: 900px;
+    
+     
+
+}
+.contenido-diferenciales{
+    width: 100%;
+    margin: 0 quto;
+}
+.lista-diferenciales{
+    margin-left: 22.5%;
+    width: 35%;
+    display: inline-block;
+    vertical-align: top;
+
+
+}
+.items{
+    line-height:2.5;
+}
+.items:first-child{
+    font-weight: bold;
+}
+.imagenDiferencial{
+    width: 22.5%;
+    height: 300px;
+    
+  
+   display: inline-block;
+    box-shadow: 5px 2px 20px 5px black;
+
+
+}
+.imagenDiferencial:hover{
+    opacity: 0.5;
+}
+
+
+.ubicacion{
+    margin-bottom: 20px;
+}
+
+
+
+footer{
+   
+    width: 100%;
+    text-align: center;
+    height: 265px;
+    background-color: #818080;
+  
+}
+.logo{
+    height: 200px;
+}
+
+.copyright{
+    font-size: 13px;
+    color:#ffffff;
+    margin: 20px;
+
+}
+.video-container{
+    margin-top: 150px;
+    margin-left: 34.8%;
+    width: 100%;
+    height: 415px;
+}
+.video{
+    
+    margin-right: 35%;
+    width: 30%;
+    height: 80%;
+}
+
+@media screen and (max-width:480px){
+    h1{
+        text-align: center;
+    }
+   
+    
+        nav{
+            width: 20%;
+            position: static;
+            top: 110px;
+            right: 0px;
+        }
+        nav a{
+         
+            font-size: 10px;
+           
+        }
+    .img{
+        width: 100px;
+        height: 100px;
+    }
+    .caja, .principal, .mapa-container, .diferenciales, .video-container{
+        width: auto;
+    }
+    
+    .lista-diferenciales{
+        margin-left: 5%;
+        width: 35%;
+        display: inline-block;
+        vertical-align: top;
+    
+    }
+    .imagenDiferencial{
+        width: 35%;
+        height: 300px;
+        margin-left: 20px;
+        
+      
+       display: inline-block;
+        box-shadow: 5px 2px 20px 5px black;
+    
+    
+    }
+}
